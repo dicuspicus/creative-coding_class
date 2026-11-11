@@ -4,7 +4,7 @@
 
  /* ==========================GLOBAL VARIABLES========================== */
 
-// import processing.sound.*;
+// import processing.sound.*; // look, I can't add library in Visual Studio Code and original Processing IDE is pure suffering, I would've added sound but I can't stand it 
 
 int[] ITTERATIONS = {10000, 1000000, 100000000};
 int pgRes_preview = 1024;
@@ -175,7 +175,6 @@ void colour_setup(){
 	colourGradient[3] = WHITE;
 }
 
-// WIP COLOUR MODE GRADIENT FUNCTION
 color getGradientColour(float occ_precent){ // you have 4 colours and percentage is always somewhere between them and depending on occurrences it will make colourMode closer to the end of gradient
 	color new_colour;
 
